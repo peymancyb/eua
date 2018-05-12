@@ -1,0 +1,18 @@
+{
+  "name": "react_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server":"nodemon server.js",
+    "eua": "cd eua && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run eua\""
+    },
+  "author": "Peyman",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "express": "^4.16.3"
+  }
+}
